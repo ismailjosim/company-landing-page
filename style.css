@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: roboto;
+}
+
+header {
+    background-image: url(assests/hederbg.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1200px;
+    height: 450px;
+}
+
+section,
+footer {
+    max-width: 1200px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+/*styling button*/
+.resume {
+    color: #ffffffc2;
+    text-decoration: none;
+    text-transform: capitalize;
+    float: right;
+    margin: 20px;
+    border: 2px solid #ffffffc2;
+    padding: 10px 15px;
+    border-radius: 5px;
+
+}
+
+.resume:hover {
+    transition: .5s;
+    background-color: #04BEF3;
+    border-color: #04BEF3;
+    color: #fff;
+}
+
+.carousel {
+    position: relative;
+    top: 170px;
+    left: 350px;
+
+
+
+}
+
+.carousel h3 {
+    color: #fff;
+    font-size: 25px;
+}
+
+.carousel span {
+    color: #04BEF3;
+    letter-spacing: 3px;
+}
+
+.carousel h1 {
+    color: #fff;
+    font-size: 50px;
+
+}
+
+.carousel button {
+    background: #04BEF3;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-left: 110px;
+    border: 2px solid #04BEF3;
+    text-transform: capitalize;
+}
+
+.carousel button:hover {
+    transition: .3s;
+    background: transparent;
+    border: 2px solid #fff;
+}
+
+.title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.title h1 {
+    font-size: 40px;
+    margin-bottom: 30px
+}
+
+.title h1 span {
+    background: #04bef36b;
+    padding: 5px;
+}
+
+.title_content {
+    background-image: url(assests/ssectionbg.png);
+    padding-top: 15%;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+
+}
+
+.content {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.content p {
+    margin-bottom: 50px;
+}
+
+.links {
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+
+}
+
+.link a {
+    text-decoration: none;
+    color: #000;
+    line-height: 1.7em;
+
+}
+
+.link a:hover {
+    transition: .3s;
+    color: #04BEF3;
+}
+
+/*footer*/
+footer {
+    height: 400px;
+    text-align: center;
+    background: #24202E;
+    color: #fff;
+}
+
+footer h1 {
+    padding-top: 100px;
+    font-size: 2.5em;
+}
+
+footer h1,
+p {
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-size: 30px
+}
+
+.social {
+    margin-top: 20px;
+    line-height: 2em;
+
+}
+
+.social img {
+    width: 15px;
+    margin-right: 10px;
+
+}
+
+.social a {
+    text-decoration: none;
+    color: #ffffffc2;
+}
+
+.social a:hover {
+    color: #04BEF3;
+    transition: .5s;
+}

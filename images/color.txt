@@ -1,0 +1,7 @@
+button: #04BEF3 ( blue)
+primary: #24202E ( black)
+secondary: #FFFFFF ( white)
+
+font-family: Roboto
+h1 blold
+button: 18px med
