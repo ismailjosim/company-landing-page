@@ -111,7 +111,7 @@ footer {
 }
 
 .title_content {
-    background-image: url(assests/ssectionbg.png);
+    background-image: url(./images/ssectionbg.png);
     padding-top: 15%;
     height: 400px;
     text-align: center;
@@ -195,4 +195,11 @@ footer p {
 .social a:hover {
     color: #04BEF3;
     transition: .5s;
+}
+
+/* Second developers code */
+footer {
+    background-color: rgb(190, 22, 22);
+    color: #000;
+
 }
